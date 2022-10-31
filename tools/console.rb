@@ -18,7 +18,7 @@ people_daily = Magazine.new("People Daily", "Entertainment")
 
 # Article
 
-art1=Article.new(kendi, people, "How to lose weight fast")
+art1=Article.new(kendi, people, "Celebrity dates")
 art2=Article.new(martha, buzz, "How to learn coding")
 art3=Article.new(kendi, nation, "Kenyan way" )
 art4=Article.new(martha, people_daily,"Ways of the society")
