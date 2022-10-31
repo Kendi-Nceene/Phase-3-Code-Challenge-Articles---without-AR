@@ -15,12 +15,14 @@ people = Magazine.new("People", "Entertainment")
 buzz = Magazine.new("Buzz", "Technology")
 nation= Magazine.new("Nation", "Politics")
 people_daily = Magazine.new("People Daily", "Entertainment")
+
 # Article
-art1=Article.new("Art1", people, "author1")
-art2=Article.new("Art2", buzz, "author1")
-art3=Article.new("Art3", nation, "author1")
-art4=Article.new("Art4", people, "author2")
-art5=Article.new("Art5", people_daily, "author2")
+
+art1=Article.new(author1, people, "How to lose weight fast")
+art2=Article.new(author1, buzz, "How to learn coding")
+art3=Article.new(author1, nation, "Kenyan way" )
+art4=Article.new(author2, people_daily,"Ways of the society")
+art5=Article.new(author2, nation,"Programmers are problem solvers")
 
 pp author1.articles
 pp author2.articles
