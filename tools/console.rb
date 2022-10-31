@@ -20,8 +20,7 @@ art2=Article.new("Art2", people, "author2")
 
 fizzbuzz.add_article("author1", "Art1")
 fizzbuzz.add_article("author2", "Art2")
-pp author_1.articles
-pp author_2.articles
+
 
 
 ### DO NOT REMOVE THIS
