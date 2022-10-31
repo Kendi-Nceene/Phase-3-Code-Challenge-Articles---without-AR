@@ -6,8 +6,8 @@ end
 
 ###  WRITE YOUR TEST CODE HERE ###
 # Author
- author_1 = Author.new( "kendi")
- author_2= Author.new( "martha")
+ author1 = Author.new( "kendi")
+ author2= Author.new( "martha")
 
 # Magazine
 people = Magazine.new("People", "Entertainment")
